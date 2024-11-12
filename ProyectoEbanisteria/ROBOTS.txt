@@ -1,0 +1,11 @@
+User-agent: ia_archiver
+Disallow: /
+User-agent: baiduspider
+Disallow: /
+User-agent: *
+Disallow: 
+Disallow: /cgi-bin/
+Disallow: /includes/
+Disallow: /src/
+Disallow: /.htaccess
+Sitemap: acancho.segundodaw.com/ProyectoEbanisteria/sitemap.xml
