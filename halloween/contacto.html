@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="shortcut icon" href="img/logo.jpeg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap"
+      rel="stylesheet"
+    />
+    <title>Contacto CDM Halloween</title>
+  </head>
+  <body>
+    <header>
+      <a href="index.html">
+        <img src="img/logo.jpeg" alt="Logo" id="logo" />
+      </a>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="subasta.html">Subasta</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <div class="wrapper">
+        <div class="title">
+          <h1>Contacta con nosotros</h1>
+        </div>
+        <form id="contact-form">
+          <div class="input-fields">
+            <input type="text" class="input" placeholder="Nombre" required />
+            <input type="email" class="input" placeholder="Email" required />
+            <input
+              type="tel"
+              class="input"
+              placeholder="Teléfono"
+              pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+              required
+            />
+            <input
+              type="text"
+              class="input"
+              placeholder="Asignatura"
+              required
+            />
+          </div>
+          <div class="msg">
+            <textarea placeholder="Observaciones" required></textarea>
+            <button type="submit" class="btn">Enviar</button>
+          </div>
+        </form>
+      </div>
+    </main>
+    <footer>
+      <p>© 2023 Centro CDM. Todos los derechos reservados.</p>
+      <p>Diseñado con ❤️ y 🎃 por el equipo de CDM.</p>
+    </footer>
+  </body>
+</html>
