@@ -1,0 +1,5 @@
+
+User-agent: *
+Disallow: 
+Disallow: /cgi-bin/
+Sitemap: https://acancho.segundodaw.com/ejercicio_arko/sitemap.xml

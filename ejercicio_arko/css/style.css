@@ -1,0 +1,66 @@
+body {
+
+background-image:url(../img/fondo2.jpeg);
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+table{
+	background-color: black;
+	border-color: black;
+  border-radius: 5px;
+}
+table{
+font-family: 'Corben', cursive;
+}
+.tablaarriba{
+	background-color: none;
+}
+
+ .boton_historia,.boton_Cachimbas,.boton_cocktails,.boton_batidos,.boton_reservas{
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 30px;
+    color: #FFFF00;
+    background-color: #D100FF;
+    border-radius: 6px;
+    border: 2px solid;
+  }
+ .boton_historia:hover{
+    color: #5600B6;
+    background-color: #FFFF00;
+  }
+  .boton_Cachimbas:hover{
+    color: #5600B6;
+    background-color: #FFFF00;
+  }
+  .boton_cocktails:hover{
+    color: #5600B6;
+    background-color: #FFFF00;
+  }
+  .boton_batidos:hover{
+    color: #5600B6;
+    background-color: #FFFF00;
+  }
+  .boton_reservas:hover{
+    color: #5600B6;
+    background-color: #FFFF00;
+  }
+  .cuerpo{
+  	background-color: black;
+  }
+  table{
+  	color: white;
+  }
+  .fidelidad{
+    margin-left: 90;
+  }
+  .historia{
+    margin-left: 70;
+    margin-right: 95;
+  }
+  .linkfidelidad:hover{
+    color: red;
+
+  }
